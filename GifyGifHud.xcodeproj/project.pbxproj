@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B07E68A22EAF614007426F0 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4B07E68922EAF614007426F0 /* loader.gif */; };
+		4BBCE8BC22E0669900A34695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCE8BB22E0669900A34695 /* AppDelegate.swift */; };
+		4BBCE8BE22E0669900A34695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCE8BD22E0669900A34695 /* ViewController.swift */; };
+		4BBCE8C122E0669900A34695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBCE8BF22E0669900A34695 /* Main.storyboard */; };
+		4BBCE8C322E0669A00A34695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBCE8C222E0669A00A34695 /* Assets.xcassets */; };
+		4BBCE8C622E0669A00A34695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBCE8C422E0669A00A34695 /* LaunchScreen.storyboard */; };
+		4BBCE8D122E0669A00A34695 /* GifyGifHudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCE8D022E0669A00A34695 /* GifyGifHudTests.swift */; };
+		4BBCE8DC22E0669A00A34695 /* GifyGifHudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCE8DB22E0669A00A34695 /* GifyGifHudUITests.swift */; };
+		4BBCE8EA22E066C800A34695 /* GifyGifHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCE8E922E066C800A34695 /* GifyGifHud.swift */; };
+		4BBCE8EE22E0767400A34695 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCE8ED22E0767400A34695 /* BaseViewController.swift */; };
+		4BBCE8F022E082AC00A34695 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCE8EF22E082AC00A34695 /* UIImage+Gif.swift */; };
+		4BBCE8F422E08A6B00A34695 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCE8F322E08A6B00A34695 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BBCE8CD22E0669A00A34695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBCE8B022E0669900A34695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BBCE8B722E0669900A34695;
+			remoteInfo = GifyGifHud;
+		};
+		4BBCE8D822E0669A00A34695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BBCE8B022E0669900A34695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BBCE8B722E0669900A34695;
+			remoteInfo = GifyGifHud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B07E68922EAF614007426F0 /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		4BBCE8B822E0669900A34695 /* GifyGifHud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifyGifHud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBCE8BB22E0669900A34695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BBCE8BD22E0669900A34695 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BBCE8C022E0669900A34695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BBCE8C222E0669A00A34695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BBCE8C522E0669A00A34695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BBCE8C722E0669A00A34695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBCE8CC22E0669A00A34695 /* GifyGifHudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifyGifHudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBCE8D022E0669A00A34695 /* GifyGifHudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifyGifHudTests.swift; sourceTree = "<group>"; };
+		4BBCE8D222E0669A00A34695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBCE8D722E0669A00A34695 /* GifyGifHudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifyGifHudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBCE8DB22E0669A00A34695 /* GifyGifHudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifyGifHudUITests.swift; sourceTree = "<group>"; };
+		4BBCE8DD22E0669A00A34695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBCE8E922E066C800A34695 /* GifyGifHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifyGifHud.swift; sourceTree = "<group>"; };
+		4BBCE8ED22E0767400A34695 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4BBCE8EF22E082AC00A34695 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		4BBCE8F322E08A6B00A34695 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BBCE8B522E0669900A34695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BBCE8C922E0669A00A34695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BBCE8D422E0669A00A34695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BBCE8AF22E0669900A34695 = {
+			isa = PBXGroup;
+			children = (
+				4BBCE8BA22E0669900A34695 /* GifyGifHud */,
+				4BBCE8CF22E0669A00A34695 /* GifyGifHudTests */,
+				4BBCE8DA22E0669A00A34695 /* GifyGifHudUITests */,
+				4BBCE8B922E0669900A34695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BBCE8B922E0669900A34695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BBCE8B822E0669900A34695 /* GifyGifHud.app */,
+				4BBCE8CC22E0669A00A34695 /* GifyGifHudTests.xctest */,
+				4BBCE8D722E0669A00A34695 /* GifyGifHudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BBCE8BA22E0669900A34695 /* GifyGifHud */ = {
+			isa = PBXGroup;
+			children = (
+				4B07E68922EAF614007426F0 /* loader.gif */,
+				4BBCE8EF22E082AC00A34695 /* UIImage+Gif.swift */,
+				4BBCE8BB22E0669900A34695 /* AppDelegate.swift */,
+				4BBCE8BD22E0669900A34695 /* ViewController.swift */,
+				4BBCE8BF22E0669900A34695 /* Main.storyboard */,
+				4BBCE8C222E0669A00A34695 /* Assets.xcassets */,
+				4BBCE8C422E0669A00A34695 /* LaunchScreen.storyboard */,
+				4BBCE8C722E0669A00A34695 /* Info.plist */,
+				4BBCE8E922E066C800A34695 /* GifyGifHud.swift */,
+				4BBCE8ED22E0767400A34695 /* BaseViewController.swift */,
+				4BBCE8F322E08A6B00A34695 /* SecondViewController.swift */,
+			);
+			path = GifyGifHud;
+			sourceTree = "<group>";
+		};
+		4BBCE8CF22E0669A00A34695 /* GifyGifHudTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BBCE8D022E0669A00A34695 /* GifyGifHudTests.swift */,
+				4BBCE8D222E0669A00A34695 /* Info.plist */,
+			);
+			path = GifyGifHudTests;
+			sourceTree = "<group>";
+		};
+		4BBCE8DA22E0669A00A34695 /* GifyGifHudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BBCE8DB22E0669A00A34695 /* GifyGifHudUITests.swift */,
+				4BBCE8DD22E0669A00A34695 /* Info.plist */,
+			);
+			path = GifyGifHudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BBCE8B722E0669900A34695 /* GifyGifHud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BBCE8E022E0669A00A34695 /* Build configuration list for PBXNativeTarget "GifyGifHud" */;
+			buildPhases = (
+				4BBCE8B422E0669900A34695 /* Sources */,
+				4BBCE8B522E0669900A34695 /* Frameworks */,
+				4BBCE8B622E0669900A34695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifyGifHud;
+			productName = GifyGifHud;
+			productReference = 4BBCE8B822E0669900A34695 /* GifyGifHud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BBCE8CB22E0669A00A34695 /* GifyGifHudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BBCE8E322E0669A00A34695 /* Build configuration list for PBXNativeTarget "GifyGifHudTests" */;
+			buildPhases = (
+				4BBCE8C822E0669A00A34695 /* Sources */,
+				4BBCE8C922E0669A00A34695 /* Frameworks */,
+				4BBCE8CA22E0669A00A34695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BBCE8CE22E0669A00A34695 /* PBXTargetDependency */,
+			);
+			name = GifyGifHudTests;
+			productName = GifyGifHudTests;
+			productReference = 4BBCE8CC22E0669A00A34695 /* GifyGifHudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BBCE8D622E0669A00A34695 /* GifyGifHudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BBCE8E622E0669A00A34695 /* Build configuration list for PBXNativeTarget "GifyGifHudUITests" */;
+			buildPhases = (
+				4BBCE8D322E0669A00A34695 /* Sources */,
+				4BBCE8D422E0669A00A34695 /* Frameworks */,
+				4BBCE8D522E0669A00A34695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BBCE8D922E0669A00A34695 /* PBXTargetDependency */,
+			);
+			name = GifyGifHudUITests;
+			productName = GifyGifHudUITests;
+			productReference = 4BBCE8D722E0669A00A34695 /* GifyGifHudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BBCE8B022E0669900A34695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "daffolapmac-48";
+				TargetAttributes = {
+					4BBCE8B722E0669900A34695 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4BBCE8CB22E0669A00A34695 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4BBCE8B722E0669900A34695;
+					};
+					4BBCE8D622E0669A00A34695 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4BBCE8B722E0669900A34695;
+					};
+				};
+			};
+			buildConfigurationList = 4BBCE8B322E0669900A34695 /* Build configuration list for PBXProject "GifyGifHud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BBCE8AF22E0669900A34695;
+			productRefGroup = 4BBCE8B922E0669900A34695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BBCE8B722E0669900A34695 /* GifyGifHud */,
+				4BBCE8CB22E0669A00A34695 /* GifyGifHudTests */,
+				4BBCE8D622E0669A00A34695 /* GifyGifHudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BBCE8B622E0669900A34695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBCE8C622E0669A00A34695 /* LaunchScreen.storyboard in Resources */,
+				4BBCE8C322E0669A00A34695 /* Assets.xcassets in Resources */,
+				4BBCE8C122E0669900A34695 /* Main.storyboard in Resources */,
+				4B07E68A22EAF614007426F0 /* loader.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BBCE8CA22E0669A00A34695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BBCE8D522E0669A00A34695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BBCE8B422E0669900A34695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBCE8F422E08A6B00A34695 /* SecondViewController.swift in Sources */,
+				4BBCE8BE22E0669900A34695 /* ViewController.swift in Sources */,
+				4BBCE8EE22E0767400A34695 /* BaseViewController.swift in Sources */,
+				4BBCE8EA22E066C800A34695 /* GifyGifHud.swift in Sources */,
+				4BBCE8F022E082AC00A34695 /* UIImage+Gif.swift in Sources */,
+				4BBCE8BC22E0669900A34695 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BBCE8C822E0669A00A34695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBCE8D122E0669A00A34695 /* GifyGifHudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BBCE8D322E0669A00A34695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBCE8DC22E0669A00A34695 /* GifyGifHudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BBCE8CE22E0669A00A34695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BBCE8B722E0669900A34695 /* GifyGifHud */;
+			targetProxy = 4BBCE8CD22E0669A00A34695 /* PBXContainerItemProxy */;
+		};
+		4BBCE8D922E0669A00A34695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BBCE8B722E0669900A34695 /* GifyGifHud */;
+			targetProxy = 4BBCE8D822E0669A00A34695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BBCE8BF22E0669900A34695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BBCE8C022E0669900A34695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BBCE8C422E0669A00A34695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BBCE8C522E0669A00A34695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BBCE8DE22E0669A00A34695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BBCE8DF22E0669A00A34695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BBCE8E122E0669A00A34695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifyGifHud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daffodil.GifyGifHud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BBCE8E222E0669A00A34695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifyGifHud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daffodil.GifyGifHud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BBCE8E422E0669A00A34695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifyGifHudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daffodil.GifyGifHudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifyGifHud.app/GifyGifHud";
+			};
+			name = Debug;
+		};
+		4BBCE8E522E0669A00A34695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifyGifHudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daffodil.GifyGifHudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifyGifHud.app/GifyGifHud";
+			};
+			name = Release;
+		};
+		4BBCE8E722E0669A00A34695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifyGifHudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daffodil.GifyGifHudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GifyGifHud;
+			};
+			name = Debug;
+		};
+		4BBCE8E822E0669A00A34695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifyGifHudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daffodil.GifyGifHudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GifyGifHud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BBCE8B322E0669900A34695 /* Build configuration list for PBXProject "GifyGifHud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBCE8DE22E0669A00A34695 /* Debug */,
+				4BBCE8DF22E0669A00A34695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BBCE8E022E0669A00A34695 /* Build configuration list for PBXNativeTarget "GifyGifHud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBCE8E122E0669A00A34695 /* Debug */,
+				4BBCE8E222E0669A00A34695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BBCE8E322E0669A00A34695 /* Build configuration list for PBXNativeTarget "GifyGifHudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBCE8E422E0669A00A34695 /* Debug */,
+				4BBCE8E522E0669A00A34695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BBCE8E622E0669A00A34695 /* Build configuration list for PBXNativeTarget "GifyGifHudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBCE8E722E0669A00A34695 /* Debug */,
+				4BBCE8E822E0669A00A34695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BBCE8B022E0669900A34695 /* Project object */;
+}
